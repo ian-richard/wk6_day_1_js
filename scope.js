@@ -14,7 +14,7 @@ var filterNamesByFirstLetter = function(names, letter) {
             filteredNames.push(name)
         }
     }
-    console.log('name after looping', name);
+    // console.log('name after looping', name);
     return  filteredNames
 }
 
@@ -34,3 +34,14 @@ let isItFive = function(num) {
     }
     return result;
 }
+
+const calculateEnergy = function(mass) {
+    const speedOfLight = 299792458;
+    return mass * speedOfLight ** 2;
+}
+
+// calculateEnergy = () => 0
+
+let energyOfMe = calculateEnergy(75);
+// console.log('energyOfMe, if I had a mass  of 75kg:',  energyOfMe);
+
