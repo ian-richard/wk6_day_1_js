@@ -19,7 +19,7 @@ var multiply = (firstNumber, secondNumber) => {
 }
 
 // console.log("multiply 2 by 5:", multiply(2, 5));
-// arrow function single line if single expression 
+// arrow function implicit return (on single line) if single expression 
 var multiply = (firstNumber, secondNumber) => firstNumber * secondNumber;
 
 
